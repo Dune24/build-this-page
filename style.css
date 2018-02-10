@@ -1,0 +1,250 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* MAIN */
+
+body {
+    font-family: 'Roboto', arial, sans-serif;
+    line-height: 1.2;
+    text-align: left;
+}
+p {
+    line-height: 1.4;
+    font-size: small;
+    color: #545454;
+}
+a {
+    text-decoration: none;
+    font-size: 115%;
+    color: #1a0dab;
+}
+a:hover {
+    text-decoration: underline;
+}
+b {
+    font-weight: bold;
+}
+h3 {
+    font-size: 16px;
+}
+.results-link {
+    color: #145a32;
+}
+
+/* HEADER */
+
+header {
+    background-color: #fafafa;
+}
+.searchform {
+    width: 100%;
+    display: inline-block;
+    margin-top: 2%;
+}
+.logo-block {
+    padding: 0 13px 0 12px;
+    position: absolute;
+}
+#googlelogo {
+    height: 44px;
+    width: 120px;
+}
+#sign-in-button {
+    padding: 8px 10px;
+    border: 0 #4387fd;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #4387fd;
+}
+.input-block {
+    width: 50%;
+    position: absolute;
+    margin-left: 12%;
+}
+input {
+    width: 91%;
+    height: 40px;
+    border: 1px solid hsl(0, 0%, 90%);
+    box-shadow: 1px 1px 5px hsl(0, 0%, 90%);
+    padding-left: 2%;
+    font-size: 100%;
+}
+#search-icon {
+    position: absolute;
+    top: 23%;
+    left: 87%;
+    color: #4585f4;
+    cursor: pointer;
+}
+#apps-icon {
+    position: relative;
+    cursor: pointer;
+    top: 6px;
+}
+.header-top {
+    float: right;
+}
+.header-top li{
+    display: inline-block;
+    padding: 0 20px 0 10px;
+}
+.searchlinks {
+    width: 46%;
+    margin: 2% 0 0 12%;
+}
+.searchlinks li {
+    padding: 2%;
+    display: inline-block;
+}
+.searchlinks li:first-child {
+    border-bottom: 3px solid rgb(57, 122, 242);
+    color: #4285f4;
+    font-weight: bold;
+}
+.li-right {
+    float: right;
+}
+.results-amount,
+.searchlinks li {
+    font-size: small;
+    color: #808080;
+}
+
+/* FEATURED */
+
+.results-amount {
+    margin: 1% 0 2% 13%;
+}
+.featured {
+    width: 46%;
+    margin: 0 0 0 12%;
+    border: 1px solid #e5e7e9;
+    padding: 1%;
+}
+.featured h3 {
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+.featured ol {
+    margin-left: 4%;
+    list-style-type: decimal;
+}
+.featured ol li {
+    margin-bottom: 1%;
+}
+.featured p:nth-child(3) {
+    margin: 2% 0 2% 3%;
+    color: #737373;
+    clear: right;
+}
+
+/* RESULTS + RELATED */
+
+.results,
+.related {
+    margin: 2% 40% 1% 13%;
+}
+.left-block,
+.right-block {
+    display: inline-block;
+    width: 40%;
+}
+.counter ul {
+    margin-left: 23%;
+}
+.counter ul li {
+    display: inline-block;
+    margin-left: 1.25%;
+    font-size: 75%;
+}
+.related a {
+    line-height: 1.6em;
+    font-weight: bold;
+    color: #1a0dab;
+    letter-spacing: 0.004em;
+    font-size: 14px;
+}
+.related h3 {
+    margin-bottom: 4%;
+}
+#googlecount {
+    margin: 1% 0 0 20%;
+}
+.next {
+    padding-left: 4%;
+}
+
+/* FOOTER */
+
+footer {
+    font-size: small;
+    background-color: #f2f2f2;
+    margin-top: 3%;
+}
+footer nav ul li {
+    display: inline-block;
+}
+.location,
+footer nav {
+    padding: 0.5% 0 0.5% 13%;
+}
+footer h2 {
+    color: #777;
+}
+footer nav ul li {
+    padding-right: 2%;
+}
+footer nav ul li a {
+    color: #777;
+}
+footer h2 {
+    font-size: medium;
+}
